@@ -64,7 +64,7 @@ def porcentaje(es35mm = True, vertical = False):
 
     # Se mide la coordenada en el sensor. Se diferencia si es Uccd o Vccd en función de si se ha tomado la fotografía
     # en horizontal o vertical
-    medida_ccd = f * a / d
+    medida_ccd = fm * a / d
 
     if vertical:
         # Al ser tomada en vertical, la medida del sensor es la del eje Uccd y se calcula el porcentaje con
