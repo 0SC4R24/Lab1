@@ -55,7 +55,7 @@ def porcentaje(es35mm = True, vertical = False):
         print(f"Diagonal del sensor utilizado: {diagonal_real}")
         # Se usan las diagonales para calcular el crop factor y la distancia focal real fm
         crop_factor = diagonal_35mm / diagonal_real
-        fm = f / crop_factor
+        fm = f_35 / crop_factor
         print(f"Crop factor: {crop_factor}")
         print(f"Distancia focal real (fm): {fm}")
     else:
