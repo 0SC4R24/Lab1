@@ -82,4 +82,4 @@ porcentaje_35mm = porcentaje(es35mm = True, vertical = True)
 porcentaje_real = porcentaje(es35mm = False, vertical = True)
 
 print(f"El porcentaje de un objeto de altura de {a}mm, a una distancia de {d}mm, con la distancia focal de referencia a 35mm en la fotografía es: {porcentaje_35mm}%")
-print(f"El porcentaje de un objeto de altura de {a}mm, a una distancia de {d}mm, con la distancia focal real en la fotografía es: {porcentaje_35mm}%")
+print(f"El porcentaje de un objeto de altura de {a}mm, a una distancia de {d}mm, con la distancia focal real en la fotografía es: {porcentaje_real}%")
